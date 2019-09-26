@@ -21,6 +21,13 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:padding="10px"
+        android:scaleType="fitXY"/>
+
     <Button
         android:id="@+id/btn1"
         android:layout_width="300dp"
